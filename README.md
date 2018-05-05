@@ -84,7 +84,8 @@ this has been planned, but if you're feeling up to the task, create an issue and
   component. The object is merged with the default renderers. The props passed to the component
   varies based on the type of node.
   * With one exception: if the key is `text`, the value should be a function that takes the literal text and returns a new string or React element.
-
+* `plugins` - _object_
+* `astPlugins` - _object_
 ## Node types
 
 The node types available are the following, and applies to both `renderers` and
